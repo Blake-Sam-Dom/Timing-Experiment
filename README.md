@@ -4,12 +4,12 @@
 
 ### Website
 
-First we setup 4 websites that each printed numbers. 2 were made in appEngine, and two were virtual machines. For appEngine and the virtual machines there were two seperate git repositories found at:
+First we setup 4 websites that each printed numbers. 2 were made in App Engine, and two were virtual machines. For appEngine and the virtual machines there were two seperate git repositories found at:
 
 AppEgine: https://github.com/Blake-Sam-Dom/AppEngineRandomGenerator
 Virual Machines (Compute Engine): https://github.com/Blake-Sam-Dom/ComputeEngineRandomGenerators
 
-Each of the above githubs has a readme that details the setup process. Additionally, screenshots within this document show the relevant process. The only thing different in this implementation, is we set each of our servers to a specific location as per class instructions. In both engines this was done by simply creating a new project in the specified region then copying our code from git using the relevant readme instructions in each repository.
+Each of the above githubs has a readme that details the setup process. Additionally, screenshots within this document show the relevant process. The only thing different in this implementation, is we set each of our servers to a specific location as per class instructions. In  App Engine this was done by simply creating a new project in the specified region then copying our code from git using the relevant readme instructions in each repository. For the virtual machines, this was done by shutting down the original virtual machine, making a snapshot disk, and then creating a new virtual machine in the correct region using the snapshot.
 
 ### Timing Script
 
